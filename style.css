@@ -19,14 +19,12 @@ body{
     color: #fff;
 }
 
-
 #navbar ul li a{
     display: block;
     padding: 15px;
     text-align: center;
     
 }
-
 
 #navbar h1{
     float: left;
@@ -52,9 +50,12 @@ body{
     color: rgb(242, 156, 103);
 }
 
+
+
 #navbar .container{
     margin: auto;
     max-width: 800px;
+    
 }
 
 
@@ -135,14 +136,6 @@ span{
 
 
 
-#main-footer{
-    text-align: center;
-    background-color: rgb(60, 60, 60);
-    color: #fff;
-}
-
-
-
 @media screen and (max-width: 900px){
     #home-info .info-img, #home-info .info-content{
         width: 100%;
@@ -151,4 +144,85 @@ span{
     #feature .box{
         width: 100%;
     }
+}
+
+
+
+
+
+
+
+#about-info .container{
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    
+}
+
+#about-info .info-left{
+    width: 50%;
+    float: left;
+    padding-top: 45px;
+}
+
+#about-info .info-right{
+    display: inline-block;
+    width: 50%;
+    padding-top: 20px;
+}
+
+#about-info .info-right img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #about-info .info-left{
+        width: 100%;
+    }
+    #about-info .info-right{
+        
+        width: 100%;
+    }
+}
+
+#testimonials{
+    background: url('./img/test-bg.jpg') center no-repeat;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+#testimonials .bg-primary{
+    background-color: rgb(242, 156, 103);
+    margin: 30px 8px 0 8px;
+    color:rgb(92, 92, 92);
+    text-align: justify;
+}
+
+#testimonials p{
+    margin: ;
+}
+
+#testimonials .container{
+    max-width: 800px;
+    margin: auto;
+
+}
+
+#testimonials img{ 
+    width: 11%;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+#main-footer{
+    
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+    color: #fff;
 }
