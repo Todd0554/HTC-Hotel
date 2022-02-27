@@ -14,6 +14,8 @@ body{
     
 }
 
+
+
 #navbar a {
     text-decoration: none;
     color: #fff;
@@ -188,22 +190,18 @@ span{
     }
 }
 
+
+
+
+
+
+
 #testimonials{
-    background: url('./img/test-bg.jpg') center no-repeat;
-    background-attachment: fixed;
-    padding: 50px;
+    background: url('./img/test-bg.jpg') center center/cover no-repeat ;
+    height: 700px;
+    padding-top: 100px;
 }
 
-#testimonials .bg-primary{
-    background-color: rgb(242, 156, 103);
-    margin: 30px 8px 0 8px;
-    color:rgb(92, 92, 92);
-    text-align: justify;
-}
-
-#testimonials p{
-    margin: ;
-}
 
 #testimonials .container{
     max-width: 800px;
@@ -211,17 +209,77 @@ span{
 
 }
 
-#testimonials img{ 
-    width: 11%;
+
+#testimonials .bg-primary{
+   background-color: rgb(242, 156, 103);
+   margin: 30px;
+   border-radius: 5px;
+   padding: 20px;
+   opacity: 0.8;
+}
+
+h2{
+    text-align: center;
+    color: #ddd;
+    font-size: 2rem;
+}
+
+
+#testimonials .testimonial img{ 
+    width: 100px;
     float: left;
-    display: inline-block;
-    vertical-align: middle;
+    margin: 8px;
+    border-radius: 50%;
+    
+}
+
+@media screen and (max-width: 720px){
+    #testimonials{
+        height: 700px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    #testimonials{
+        height: 1200px;
+    }
 }
 
 
 
-#main-footer{
+
+#contact-info .container{
+    max-width: 800px;
+    margin: auto;
+    padding-top: 38px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#contact-info form{
+    margin-top: 20px;
+}
+
+#contact-info input, textarea{
+    width: 100%;
     
+}
+
+#contact-info textarea{
+    height: 300px;
+}
+
+#feature .contact-box{
+    background-color: rgb(176, 176, 176);
+}
+
+
+
+
+
+#main-footer{
     text-align: center;
     background-color: rgb(60, 60, 60);
     color: #fff;
